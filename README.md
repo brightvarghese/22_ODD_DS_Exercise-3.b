@@ -17,7 +17,7 @@ Implementation the MyCircularQueue class:</br>
 At most 3000 calls will be made to enqueue, dequeue, get_front, get_rear, is_empty, and is_full.
 
 # Sample Input
-['MyCircularQueue', 'enqueue', 'enqueue', 'enqueue', 'enqueue', 'get_rear', 'is_full', 'dequeue', 'enqueue', 'get_rear']
+['MyCircularQueue', 'enqueue', 'enqueue', 'enqueue', 'enqueue', 'get_rear', 'is_full', 'dequeue', 'enqueue', 'get_rear']</br>
 [[3], [1], [2], [3], [4], [], [], [], [4], []]
 # Sample Output
 [None, True, True, True, False, 3, True, True, True, 4]
