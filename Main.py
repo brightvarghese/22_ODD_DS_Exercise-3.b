@@ -25,7 +25,6 @@ class MyCircularQueue:
 operations = []
 for specific_operation in input().split(','):
     operations.append(specific_operation.strip())
-print(operations)
 data = []
 for item in input().split(','):
     item = item.strip()
@@ -33,7 +32,6 @@ for item in input().split(','):
         data.append([])
     else:
         data.append([int(item)])
-print(data)
 obj = MyCircularQueue(data[0][0])
 result = []
 for i in range(len(operations)):
